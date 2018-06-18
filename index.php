@@ -1,3 +1,7 @@
+<?php
+    require __DIR__ . "/model.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +11,10 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header>
-		<div class="container">
-			<h2>Header</h2>
-		</div>
-    </header>
+    
 	<main>
 		<ul class="productBox">
+
 				<li class="product">
 					<div class="innerProductBox">
 						<div class="imgBox">
@@ -37,7 +38,7 @@
 						</div>
 					</div>
 				</li>
-            
+              
 		</ul>
 		<button class="more">Load more</button>
 		<div class="infoBox">
@@ -85,11 +86,7 @@
 			</div>
 		</div>
 	</main>
-    <footer>
-		<div class="container">
-			<h2>Footer</h2>
-		</div>
-    </footer>
+    
     <?php require __DIR__ . "/preloader.php";?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/script.js"></script>
