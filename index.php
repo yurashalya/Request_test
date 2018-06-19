@@ -11,10 +11,9 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
 	<main>
 		<ul class="productBox">
-				
+				<?php foreach (getItems(1, 4) as $item): ?>
 				<li class="product">
 					<div class="innerProductBox">
 						<div class="imgBox">
@@ -38,7 +37,7 @@
 						</div>
 					</div>
 				</li>
-              
+               <?php endforeach; ?>
 		</ul>
 		<button class="more">Load more</button>
 		<div class="infoBox">
